@@ -1,0 +1,35 @@
+.header {
+    background-color: #f8f9fa;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+}
+.header .cart {
+    margin-right: 20px;
+}
+.main {
+    display: flex;
+    margin: 20px;
+}
+.main .sidebar {
+    width: 20%;
+    margin-right: 20px;
+}
+.main .products {
+    width: 80%;
+}
+.footer {
+    background-color: #f8f9fa;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    box-shadow: 0 -2px 4px 0 rgba(0,0,0,0.1);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
